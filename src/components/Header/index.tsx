@@ -23,9 +23,11 @@ export default function Header() {
   return (
     <div className="header">
       <div className="header-wrapper">
-        <div className="header-item">resultados 24/7</div>
-        <div className="header-item">{date}</div>
-        <div className="header-item">{time}</div>
+        <div className="header-item header-logo">
+          <img src="logo.webp" alt="resultados147" height="32px" />
+        </div>
+        <div className="header-item header-date">{date}</div>
+        <div className="header-item header-time">{time}</div>
       </div>
     </div>
   );
