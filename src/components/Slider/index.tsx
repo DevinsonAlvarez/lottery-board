@@ -1,4 +1,4 @@
-import "swiper/css";
+import "swiper/swiper-bundle.css";
 import "./styles.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Mousewheel } from "swiper/modules";
