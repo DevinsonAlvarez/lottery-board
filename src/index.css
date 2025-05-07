@@ -1,0 +1,53 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg: linear-gradient(180deg, rgba(20, 32, 74, 1) 0%, rgba(48, 12, 12, 1) 100%);
+  --bg-header: #000;
+  --bg-footer: #000;
+
+  --border-color: #27272a;
+
+  --text: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  /* 1rem == 10px */
+}
+
+body {
+  background: var(--bg);
+
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.5;
+
+  margin: 0;
+  padding: 0;
+
+  height: 100dvh;
+  min-height: 720px;
+  width: 100%;
+  min-width: 1280px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-height: 100dvh;
+}
