@@ -24,15 +24,14 @@
 }
 
 html {
-  font-size: 62.5%;
-  /* 1rem == 10px */
+  font-size: 10px; /* 1rem == 10px*/
 }
 
 body {
   background: var(--bg);
 
+  font-size: 1.6rem;
   color: var(--text);
-  font-size: 16px;
   line-height: 1.5;
 
   margin: 0;
@@ -50,4 +49,8 @@ body {
   justify-content: space-between;
 
   min-height: 100dvh;
+}
+
+ul {
+  list-style: none;
 }
